@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Islam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Learn Islam</h1>
+            <input type="text" id="search" placeholder="Search your favourite books" onkeyup="searchBooks()">
+        </header>
+        
+        <main>
+            <section id="book-list">
+                <h2>Recommended</h2>
+                <div class="book-grid" id="books"></div>
+            </section>
+            
+            <aside id="book-details">
+                <div id="book-info"></div>
+                <button id="read-pdf-button" onclick="readPDF()">Read PDF</button>
+            </aside>
+        </main>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
